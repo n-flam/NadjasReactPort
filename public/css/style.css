@@ -796,9 +796,6 @@ TESTIMONIALS
 CONTACT
 */
 
-.footer-paralax {
-  padding: 4rem 0 0 0;
-}
 
 .contact-mf {
   margin-top: 4rem;
@@ -810,7 +807,7 @@ FOOTER
 
 footer {
   text-align: center;
-  color: #fff;
+  color: blueviolet;
   padding-bottom: 4rem;
 }
 
@@ -826,13 +823,18 @@ footer .credits a {
   color: #fff;
 }
 
+.footer-paralax {
+  padding: 4rem 0 0 0;
+}
+
+
 
 /*
 CONTACT 
 */
 
 #sendmessage {
-  color: #0078ff;
+  color: #fbff00;
   border: 1px solid #0078ff;
   display: none;
   text-align: center;
@@ -890,7 +892,7 @@ BUTTON
 }
 
 .button:hover {
-  background-color: #0062d3;
+  background-color: #00d346;
   color: #fff;
   transition: all 500ms ease;
 }
