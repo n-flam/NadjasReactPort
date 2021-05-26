@@ -1,14 +1,14 @@
 import React from "react";
 import $ from "jquery";
 
-import logo1 from "../img/female_color.png";
-import logo2 from "../img/female_outline.svg";
+import avatar from "../img/nadja_flam.jpg";
+import avatar2 from "../img/nadja_flam.jpg";
 
 class Navbar extends React.Component {
   constructor() {
     super();
     this.state = {
-      logo: logo1
+      logo: avatar
     };
   }
 
@@ -39,7 +39,8 @@ class Navbar extends React.Component {
         document
           .querySelector(".navbar-expand-md")
           .classList.remove("navbar-trans");
-        this.setState({ logo: logo2 });
+        this.setState({ logo: avatar2
+       });
       } else {
         document
           .querySelector(".navbar-expand-md")
@@ -47,7 +48,7 @@ class Navbar extends React.Component {
         document
           .querySelector(".navbar-expand-md")
           .classList.remove("navbar-reduce");
-        this.setState({ logo: logo1 });
+        this.setState({ logo: avatar });
       }
     });
 
