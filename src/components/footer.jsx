@@ -4,11 +4,11 @@ class About extends React.Component {
 
   render() { 
     return ( //Todo ClassName ABOUT
-      <section id="footer" className="sect-pt4 footer">
+      <section id="footer" className="sect-pt4 route">
         <div className="container">
-      <div>
+      
         <div className="row">
-            <div className="col">
+            <div className="col-sm-12">
             <span>
               Made with <i class="icon ion-heart"></i> By 
               <a href="dontforgetme" target="blank"></a>
@@ -17,11 +17,11 @@ class About extends React.Component {
             </div>
         </div>
         <div className="row">
-            <div className="col">
+            <div className="col-sm-12">
             <span> © 2021 Copyright </span>
             </div>
         </div>
-      </div>
+      
     </div>
       </section>
     );
