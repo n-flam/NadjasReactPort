@@ -4,7 +4,7 @@ class About extends React.Component {
 
   render() { 
     return ( //Todo ClassName ABOUT
-      <section id="footer" className="sect-pt4">
+      <section id="footer" className="sect-pt4 footer">
         <div className="container">
       <div>
         <div className="row">

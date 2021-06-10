@@ -1,12 +1,12 @@
 import React from "react";
 
 //import stock
-import stock from "../img/image1.jpg";
-import stock1 from "../img/image2.jpg";
-import stock2 from "../img/image3.jpg";
-import stock3 from "../img/image4.jpg";
-import stock4 from "../img/image5.jpg";
-import stock5 from "../img/image6.jpg";
+import stock from "../img/wltgo.jpg";
+import stock1 from "../img/lotr.jpg";
+import stock2 from "../img/homemadeburger.jpg";
+import stock3 from "../img/work_day_scheduler.jpg";
+import stock4 from "../img/WorkoutTracker.jpg";
+import stock5 from "../img/weaterhapp.jpg";
 
 class Portfolio extends React.Component {
   render() {
@@ -28,17 +28,17 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-vmarine">
+                <a href={stock1} data-lightbox="gallery-vmarine">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={stock1} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Lord of the Ring or Harry Potter</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap ReactJS
+                          LOTR (pronounced /'lɒtər/) or Potter is a quiz based on the series Lord of the Rings (LOTR) and Harry Potter (Potter).
                           </span>
                         </div>
                       </div>
@@ -49,41 +49,6 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
-                </a>
-                <a
-                  href={stock1}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock2}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
                 </a>
               </div>
             </div>
@@ -96,11 +61,10 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Who let the dogs out?</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack SmoothScrolling
-                            VanillaJS
+                          Our App enables pet owners to easily arrange playdates with dogs similar to theirs and enjoy the benefits brought through play for them and their dogs.
                           </span>{" "}
                         </div>
                       </div>
@@ -112,56 +76,22 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                <a
-                  href={stock1}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock2}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
+               
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-todo">
+                <a href={stock2} data-lightbox="gallery-todo">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={stock2} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Home Made Burger</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack ReactJS
+                          A burger logger with MySQL, Node, Express, and Handlebars query and route data, and Handlebars to generate HTML. Eat-Da-Burger!
                           </span>
                           {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                         </div>
@@ -174,56 +104,22 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                <a
-                  href={stock1}
-                  data-lightbox="gallery-todo"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock2}
-                  data-lightbox="gallery-todo"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-todo"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-todo"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-todo"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
+               
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-medlingos">
+                <a href={stock3} data-lightbox="gallery-medlingos">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={stock3} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Work Day Scheduler</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            Bootstrap ReactJS GoogleAPI
+                          Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
                           </span>
                         </div>
                       </div>
@@ -235,55 +131,21 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                <a
-                  href={stock1}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock2}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
+                
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-smth">
+                <a href={stock4} data-lightbox="gallery-smth">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={stock4} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Workout Tracker</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">MERN</span>
+                          <span className="w-ctegory">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</span>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -294,56 +156,22 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                <a
-                  href={stock1}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock2}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
+                
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-mf">
+                <a href={stock5} data-lightbox="gallery-mf">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={stock5} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Weather App</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap MERN
+                          Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
                           </span>
                         </div>
                       </div>
@@ -354,41 +182,6 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
-                </a>
-                <a
-                  href={stock1}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock2}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
                 </a>
               </div>
             </div>
